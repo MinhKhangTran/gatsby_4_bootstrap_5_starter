@@ -5,7 +5,7 @@ import { SeoQuery } from "../types.generated";
 
 function SEO({
   description,
-  lang,
+  lang = "en",
 
   title,
   pathname,
