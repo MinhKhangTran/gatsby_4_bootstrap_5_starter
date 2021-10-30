@@ -1,0 +1,25 @@
+// load custom font from google fonts
+
+@import "~bootstrap/scss/functions";
+// redefine variables not dependent on anything else
+
+// global variables
+
+// theme color variables
+
+// font family
+
+// links
+
+// import variables and mixins files (so you can use them below)
+// any redefined vars above will be incorporated into the files (e.g. in maps)
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// utility api - import utility file first
+// import bootstrap whole sass lib (incorporates all above redefined vars & values)
+@import "~bootstrap/scss/bootstrap";
+
+//import custom components
+@import "./footer";
+@import "./navigation";

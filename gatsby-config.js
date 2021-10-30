@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "gatsby_4_bootstrap_5",
+    title: "gatsby_bootstrap_starter",
+    description:
+      "Starter for gatsby 4.0 with bootstrap, typescript and testing with cypresss",
+    keywords: "bootstrap, gatsby, typescript, cypress",
+    author: "mkt",
   },
   plugins: [
     "gatsby-plugin-sass",
