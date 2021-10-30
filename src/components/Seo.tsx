@@ -30,6 +30,8 @@ function SEO({
       }
     `
   );
+  console.log(site);
+
   const metaDescription = description || site?.siteMetadata?.description;
   const canonical = pathname
     ? `${site?.siteMetadata?.siteUrl}${pathname}`
@@ -72,7 +74,7 @@ function SEO({
           property: `og:type`,
           content: `website`,
         },
-      ].concat(meta)}
+      ]}
     />
   );
 }
