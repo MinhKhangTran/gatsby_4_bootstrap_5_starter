@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
-import Test from "../components/Test";
+
 
 // markup
 const IndexPage = () => {
