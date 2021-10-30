@@ -1,17 +1,18 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import { SeoQuery } from "../types.generated";
 
 function SEO({
   description,
   lang,
-  meta,
+
   title,
   pathname,
 }: {
   description?: string;
   lang?: string;
-  meta?: any;
+
   title: string;
   pathname?: string;
 }) {
@@ -30,7 +31,6 @@ function SEO({
       }
     `
   );
-  console.log(site);
 
   const metaDescription = description || site?.siteMetadata?.description;
   const canonical = pathname
